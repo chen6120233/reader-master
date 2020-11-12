@@ -24,7 +24,7 @@
 运行项目出现问题或者有其他疑问的，欢迎在 github 上 issues。
 
 如果觉得这个项目对你有帮助，不妨点个 **Star** 支持一下，谢谢！
-![freader-5.png](http://svc.100jed.com/fastdfs/group1/M00/00/6E/wKgApV-s6hyAcc4-AAHhIHbzD2E006.jpg)
+![](http://svc.100jed.com/fastdfs/group1/M00/00/6E/wKgApV-s6hyAcc4-AAHhIHbzD2E006.jpg)
 
 
 
