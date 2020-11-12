@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:maxHeight="60dp"
+    android:minHeight="60dp"
+    android:padding="10dp">
+
+    <!-- cover -->
+    <ImageView
+        android:id="@+id/iv_item_novel_cover"
+        android:layout_width="110dp"
+        android:layout_height="150dp"
+        android:visibility="gone"
+        android:scaleType="fitXY"
+        android:src="@drawable/default_cover"
+        android:layout_alignParentStart="true" />
+
+    <!-- name -->
+    <TextView
+        android:id="@+id/tv_item_novel_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/item_novel_source_text_margin_start"
+        android:layout_marginEnd="@dimen/item_novel_source_text_margin_end"
+        android:text="@string/item_novel_source_name"
+        android:textColor="@color/item_novel_source_name"
+        android:textSize="16sp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@id/iv_item_novel_cover"
+        android:singleLine="true"
+        android:ellipsize="end"/>
+
+<LinearLayout
+    android:id="@+id/linear"
+    android:visibility="gone"
+    android:layout_width="wrap_content"
+    android:layout_alignParentRight="true"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content">
+    <Button
+        android:text="有图片"
+
+        android:id="@+id/web2"
+
+        android:layout_marginRight="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="编辑"
+        android:id="@+id/bianji"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+    <!-- author -->
+    <TextView
+        android:id="@+id/tv_item_novel_author"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/item_novel_source_text_margin_start"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="@dimen/item_novel_source_text_margin_end"
+        android:visibility="gone"
+        android:text="@string/item_novel_source_author"
+        android:textColor="@color/item_novel_source_author"
+        android:textSize="14sp"
+        android:layout_below="@id/tv_item_novel_title"
+        android:layout_toEndOf="@id/iv_item_novel_cover"
+        android:singleLine="true"
+        android:ellipsize="end"/>
+
+    <!-- introduce -->
+    <TextView
+        android:id="@+id/tv_item_novel_short_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/item_novel_source_text_margin_start"
+
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="@dimen/item_novel_source_text_margin_end"
+        android:text="@string/item_novel_source_introduce"
+        android:textColor="@color/item_novel_source_introduce"
+        android:textSize="12sp"
+        android:layout_below="@id/tv_item_novel_author"
+        android:layout_toEndOf="@id/iv_item_novel_cover"
+        android:maxLines="4"
+        android:ellipsize="end"/>
+
+</RelativeLayout>

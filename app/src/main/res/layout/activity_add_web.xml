@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.feng.freader.view.activity.item.AddWebActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:hint="请输入名称"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/url"
+                android:hint="请输入地址"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/condition"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:hint="请输入跳转条件"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/titleName"
+                android:hint="请输入获取头"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/next_url"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:hint="请输入获取下一页"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/prev_url"
+                android:hint="请输入获取上一页"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:hint="请输入获内容"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/baocun"
+            android:text="保存"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/tuichu"
+            android:text="退出"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.feng.freader.view.activity.item.WebActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:id="@+id/mokuai_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#434a54"
+            android:gravity="center"
+            android:text="模块"
+            android:textColor="#ffffff"
+           />
+
+        <ImageView
+            android:id="@+id/fanhui"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:src="@mipmap/icon_5" />
+        <Button
+            android:id="@+id/moshi"
+            android:text="阅读模式"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+
+    <WebView
+        android:id="@+id/web"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp">
+
+    </WebView>
+
+
+
+</LinearLayout>
